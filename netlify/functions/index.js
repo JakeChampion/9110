@@ -1,5 +1,5 @@
 export default async () => {
-   return new Response("hello", {headers: {foo: "é"}})
+   return new Response("hello 🙂", {headers: {foo: "é", try: "🙂"}})
  }
 
 export const config = {
