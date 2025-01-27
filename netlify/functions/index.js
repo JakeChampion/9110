@@ -1,4 +1,4 @@
-export default async (req: Request, context: Context) => {
+export default async () => {
    return new Response("hello", {headers: {foo: "é"}})
  }
 
